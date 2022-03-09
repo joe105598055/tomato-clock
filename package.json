@@ -10,7 +10,9 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:tomato-clock.helloWorld"
+		"onCommand:tomato-clock.helloWorld",
+		"onCommand:tomato-clock.start",
+		"onCommand:tomato-clock.stop"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -18,6 +20,14 @@
 			{
 				"command": "tomato-clock.helloWorld",
 				"title": "Hello World"
+			},
+			{
+				"command": "tomato-clock.start",
+				"title": "tomato start"
+			},
+			{
+				"command": "tomato-clock.stop",
+				"title": "tomato stop"
 			}
 		]
 	},
