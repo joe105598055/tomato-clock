@@ -3,8 +3,15 @@
 	"displayName": "tomato-clock",
 	"description": "just clock...",
 	"version": "0.0.1",
+	"license": "MIT",
+	"publisher": "JoeHuang",
+	"icon": "icon/tomato.png",
 	"engines": {
 		"vscode": "^1.65.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/joe105598055/tomato-clock"
 	},
 	"categories": [
 		"Other"

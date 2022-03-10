@@ -3,6 +3,7 @@ const format = require("date-fns/format");
 let clock: NodeJS.Timeout;
 
 export function close(status: vscode.StatusBarItem) {
+  clock && clearInterval(clock as NodeJS.Timeout);
   status.hide();
 }
 
@@ -12,7 +13,7 @@ export function start(time: number, status: vscode.StatusBarItem) {
   status.show();
   clock = setInterval(() => {
     time = time - 1000;
-    status.text = "Tomato Clock: " + String(format(time, "mm:ss"));
+    status.text = "🍅" + String(format(time, "mm:ss"));
     if (time === 0) {
       clearInterval(clock as NodeJS.Timeout);
       vscode.window
