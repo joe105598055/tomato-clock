@@ -15,12 +15,29 @@ function createStatusBarItem(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerCommand(Command.STATUS_BAR_CLICK, async () => {
       vscode.window
-        .showQuickPick(["Start now", "Restart", "Close"], {
+        .showQuickPick(["Restart", "Close"], {
           placeHolder: "Select action what you want",
         })
         .then((select) => {
           if (select === "Close") {
             close(status);
+          }
+          if (select === "Restart") {
+            vscode.window
+              .showInformationMessage("Choose process perid: ", "20 min", "25 min", "30 min")
+              .then((select: string | undefined) => {
+                switch (select) {
+                  case "20 min":
+                    start(20, status);
+                    break;
+                  case "25 min":
+                    start(25, status);
+                    break;
+                  case "30 min":
+                    start(30, status);
+                    break;
+                }
+              });
           }
         });
     })
