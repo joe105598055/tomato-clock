@@ -2,7 +2,7 @@
 	"name": "tomato-clock",
 	"displayName": "tomato-clock",
 	"description": "just clock...",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"license": "MIT",
 	"publisher": "qwert30830",
 	"icon": "icon/tomato.png",
