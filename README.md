@@ -1,6 +1,6 @@
 # Tomato-clock
 
-[![Installs](http://vsmarketplacebadge.apphb.com/installs/qwert30830.tomato-clock.svg
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/qwert30830.tomato-clock.svg
 )](https://marketplace.visualstudio.com/items?itemName=qwert30830.tomato-clock)
 
 ## Installation
