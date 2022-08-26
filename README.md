@@ -1,8 +1,22 @@
-##### Quick start
+# Tomato-clock
+
+[![Installs](http://vsmarketplacebadge.apphb.com/installs/qwert30830.tomato-clock.svg
+)](https://marketplace.visualstudio.com/items?itemName=qwert30830.tomato-clock)
+
+## Installation
+
+```
+ext install tomato-clock
+```
+
+
+## Usage
+
 ```
  cmd + shift + p > "tomato-clock"
 ```
+![usage image](https://github.com/joe105598055/tomato-clock/blob/master/image/usage.jpg?raw=true)
 
-##### ref
-https://marketplace.visualstudio.com/items?itemName=qwert30830.tomato-clock
-https://code.visualstudio.com/api/working-with-extensions/publishing-extension#publishing-extensions
+## License
+
+MIT © joe105598055
