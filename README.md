@@ -1,7 +1,8 @@
 # Tomato-clock
 
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/qwert30830.tomato-clock.svg
-)](https://marketplace.visualstudio.com/items?itemName=qwert30830.tomato-clock)
+A tool for time management based on pomodoro.
+
+[![Visual Studio Code](https://img.shields.io/badge/--F8F8F8?logo=visual%20studio%20code&logoColor=007ACC)](https://marketplace.visualstudio.com/items?itemName=qwert30830.tomato-clock)&nbsp;[![GitHub license](https://badgen.net/github/license/joe105598055/tomato-clock)](https://github.com/joe105598055/tomato-clock/blob/master/LICENSE)&nbsp;[![Visual Studio Code](https://img.shields.io/visual-studio-marketplace/i/qwert30830.tomato-clock)](https://marketplace.visualstudio.com/items?itemName=qwert30830.tomato-clock)
 
 ## Installation
 
